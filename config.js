@@ -1,16 +1,16 @@
-let fs = require('fs')                    //CREATOR = YahyaGanzz , DEVBOT
+let fs = require('fs')                    //CREATOR = Deepak(Gappu) , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6281938681806'],
-  ['6282124379785'],
-  ['6283137750223', 'Owner IkhsanBot', true]  
+  ['919015286428','18709704421'],
+  ['919015286428'],
+  ['919015286428', 'Owner GappuBot', true]  
   
 ] 
-global.ownername = [['Ikhsan']]
-global.namabot = [['Ikhsan-Bot']]
-global.ownerinsta = [['@Ikhsan_888816']]
-global.mods = [] 
-global.prems = [] 
+global.ownername = [['Deepak']]
+global.namabot = [['Gappu-Bot']]
+global.ownerinsta = [['https://Instagram.com/_g.a.p.p.u_']]
+global.mods = ['919015286428'] 
+global.prems = ['919015286428'] 
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'Ikhsan-Bot'
-  var sticker_author = 'By Ikhsan-Bot'
+  var sticker_name = 'Gappu-Bot💞'
+  var sticker_author = 'Deepak🤗❤️'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -61,7 +61,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'Created by Ikhsan-Bot'
+global.wm = 'Created by Gappu-Bot'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
